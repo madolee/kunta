@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/send_button"
+        android:layout_width="259dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:baselineAligned="false"
+        android:text="@string/button" />
+
+    <EditText
+        android:id="@+id/send_editText"
+        android:layout_width="363dp"
+        android:layout_height="110dp"
+        android:layout_marginTop="52dp"
+        android:gravity="top|left"
+        android:hint="@string/send_editText"
+        android:textSize="40sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:autofillHints=""
+        tools:ignore="RtlHardcoded,TextFields" />
+
+    <TextView
+        android:id="@+id/read_textView"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:text="@string/textview" />
+
+
+    <TextView
+        android:id="@+id/send_textView"
+        android:layout_width="match_parent"
+        android:layout_height="113dp"
+        android:text="@string/send_textView" />
+
+</LinearLayout>
