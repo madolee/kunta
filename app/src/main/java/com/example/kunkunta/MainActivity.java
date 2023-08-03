@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
                     else{
                         break;
                     }
-                    Thread.sleep(2);
+                    Thread.sleep(10);
                 } catch (IOException | InterruptedException e) {
                     e.printStackTrace();
                 }
@@ -96,3 +96,5 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
+
+#tttt
